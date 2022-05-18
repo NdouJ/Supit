@@ -1,0 +1,4 @@
+const copy= document.querySelector('body');
+copy.addEventListener('copy', ()=>alert('Zaštićeno autorskim pravima'));
+
+

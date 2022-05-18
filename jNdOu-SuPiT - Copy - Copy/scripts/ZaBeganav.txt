@@ -1,0 +1,29 @@
+const createnav = ()=>{
+    let nav= document.querySelector('.container-fluid');
+    nav.innerHTML=`
+    <a class="navbar-brand" href="pocetna.html">
+      
+      <img class="nav-logo" src="materijali/img/Algebra-logo.png" width="50" height="44"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link nav-link__text active" aria-current="page" href="pocetna.html" hreflang="hr">
+          <i class="fa fa-home"></i>Početna</a>
+        <a class="nav-link nav-link__text" href="o-nama.html" hreflang="hr">
+          <i class="fa fa-comments-o"></i>O nama</a>
+        <a class="nav-link nav-link__text" href="novosti.html" hreflang="hr">
+          <i class="fa fa-info-circle"></i>Novosti</a>
+        <a class="nav-link nav-link__text" href="nastavni-plan.html" hreflang="hr">
+          <i class="fa fa-info-circle"></i>Nastavni plan</a>
+        <a id="contactForm" class="nav-link nav-link__text" hreflang="hr" href="#myModal" data-bs-target="#myModal" data-bs-toggle="modal">  
+           <i class="fa fa-envelope"></i>Kontakt</a>
+      </div>
+    </div>
+  </div>`;
+  }
+  
+  createnav()

@@ -1,0 +1,20 @@
+const createfooter = ()=>{
+    let footer= document.querySelector('.footer__o-nama');
+    footer.innerHTML=`<div class="footer__o-nama__text">
+    <p style="color: white; text-shadow: 1px 1px black; padding-top: 2rem">
+      BUDI IZVRSTAN U ONOM ŠTO VOLIŠ
+    </p>
+    <p
+      style="color: rgb(207, 3, 88);
+        text-shadow: 1px 1px black;
+        padding-bottom: 2rem;">
+      ZAISKRI
+    </p>
+  </div>`;
+}
+
+createfooter()
+
+
+
+
